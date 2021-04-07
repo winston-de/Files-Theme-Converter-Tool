@@ -30,7 +30,7 @@
         <RichTextBlock Grid.Row="3">
             <Paragraph>
                 <Run>Most of this software is adapted from the</Run>
-                <Hyperlink NavigateUri="www.microsoft.com">Fluent XAML Theme Editor</Hyperlink>
+                <Hyperlink NavigateUri="https://github.com/microsoft/fluent-xaml-theme-editor">Fluent XAML Theme Editor</Hyperlink>
                 <Run>which is copyrighted by Microsoft</Run>
             </Paragraph>
         </RichTextBlock>

@@ -1,0 +1,39 @@
+﻿<Page
+    x:Class="Files_Theme_Importer_Tool.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Files_Theme_Importer_Tool"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <RichTextBlock Grid.Row="0">
+            <Paragraph>
+                Instructions
+            </Paragraph>
+            <Paragraph>
+                <Run>Press the button below, then select the json file you would like to import.</Run>
+                <LineBreak/>
+                <Run>After that, you'll be prompted to save the generated xaml file, which can be used as a theme in Files.</Run>
+            </Paragraph>
+        </RichTextBlock>
+        <Button Content="Import JSON File" VerticalAlignment="Center" HorizontalAlignment="Center" Click="Button_Click" Grid.Row="1"/>
+        <TextBlock x:Name="ResultTextBlock" Grid.Row="2" HorizontalAlignment="Center" HorizontalTextAlignment="Center"/>
+        <RichTextBlock Grid.Row="3">
+            <Paragraph>
+                <Run>Most of this software is adapted from the</Run>
+                <Hyperlink NavigateUri="www.microsoft.com">Fluent XAML Theme Editor</Hyperlink>
+                <Run>which is copyrighted by Microsoft</Run>
+            </Paragraph>
+        </RichTextBlock>
+
+    </Grid>
+</Page>

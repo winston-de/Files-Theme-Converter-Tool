@@ -256,11 +256,11 @@ namespace Files_Theme_Importer_Tool
             sb.AppendLine(string.Format("                    <Color x:Key=\"SolidBackgroundFillColorTertiary\">{0}</Color>", model.LightBase.Palette[2].ActiveColor.ToString()));
             sb.AppendLine(string.Format("                    <Color x:Key=\"SolidBackgroundFillColorQuarternary\">{0}</Color>", model.LightBase.Palette[3].ActiveColor.ToString()));
 
-            sb.AppendLine("                    <SolidColorBrush x:Key=\"ApplicationPageBackgroundThemeBrush\" Color=\"{StaticResource RegionColor}\" />");
-            sb.AppendLine("                    <SolidColorBrush x:Key=\"SolidBackgroundFillColorBaseBrush\" Color=\"{StaticResource RegionColor}\" />");
-            sb.AppendLine("                    <SolidColorBrush x:Key=\"SolidBackgroundFillColorSecondaryBrush\" Color=\"{StaticResource BasePalette1000Color}\" />");
-            sb.AppendLine("                    <SolidColorBrush x:Key=\"SolidBackgroundFillColorTertiaryBrush\" Color=\"{StaticResource BasePalette900Color}\" />");
-            sb.AppendLine("                    <SolidColorBrush x:Key=\"SolidBackgroundFillColorQuarternaryBrush\" Color=\"{StaticResource BasePalette800Color}\" />");
+            sb.AppendLine("                    <SolidColorBrush x:Key=\"ApplicationPageBackgroundThemeBrush\" Color=\"{StaticResource BasePalette000Color}\" />");
+            sb.AppendLine("                    <SolidColorBrush x:Key=\"SolidBackgroundFillColorBaseBrush\" Color=\"{StaticResource BasePalette000Color}\" />");
+            sb.AppendLine("                    <SolidColorBrush x:Key=\"SolidBackgroundFillColorSecondaryBrush\" Color=\"{StaticResource BasePalette100Color}\" />");
+            sb.AppendLine("                    <SolidColorBrush x:Key=\"SolidBackgroundFillColorTertiaryBrush\" Color=\"{StaticResource BasePalette200Color}\" />");
+            sb.AppendLine("                    <SolidColorBrush x:Key=\"SolidBackgroundFillColorQuarternaryBrush\" Color=\"{StaticResource BasePalette300Color}\" />");
 
 
             sb.AppendLine("                </ResourceDictionary>");
